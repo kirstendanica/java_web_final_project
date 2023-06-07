@@ -1,11 +1,9 @@
 package com.example.java_web_final_project.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.*;
 
 @Entity
+@Table(name = "cats")
 public class Cat {
 
     @Id
